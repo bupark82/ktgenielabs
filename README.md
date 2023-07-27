@@ -1,6 +1,10 @@
 # ktgenielabs
 
-1. conda create --name myenv
+1. #1 conda create --name myenv
+      conda activate myenv
+   #2 python3 -m venv .venv
+      source .venv/bin/activate
+
 2. git clone https://github.com/bupark82/ktgenielabs.git
 3. pip install -r requirements.txt
 4. streamlit run app.py
